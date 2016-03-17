@@ -3,7 +3,8 @@ data:extend(
     {
         type = "recipe",
         name = "deuterium-extraction",
-        enabled = false,
+        category = "chemistry",
+        enabled = true,
         energy_required = 5,
         ingredients = 
         {
@@ -11,7 +12,6 @@ data:extend(
         },
         results =
         {
-            {type="fluid", name="water", amount=5},
             {type="fluid", name="deuterium-gas", amount=1},
         },
         icon = "__Fusion Reactor__/graphics/icons/deuterium-extraction.png",
