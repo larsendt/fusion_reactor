@@ -1,8 +1,8 @@
 {
-    "name": "Steel Walls",
+    "name": "Fusion Reactor",
     "version": "0.1.0",
-    "title": "Steel Walls",
+    "title": "Fusion Reactor",
     "author": "Groot",
-    "description": "Adds a wall upgrade that is much stronger than stone walls",
+    "description": "Adds deuterium extraction from water and fusion reactors.",
     "dependencies": ["base >= 0.12.00"]
 }
