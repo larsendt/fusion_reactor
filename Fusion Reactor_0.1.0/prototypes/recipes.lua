@@ -13,6 +13,7 @@ data:extend(
         results =
         {
             {type="fluid", name="deuterium-gas", amount=1},
+            {type="fluid", name="water", amount=5},
         },
         icon = "__Fusion Reactor__/graphics/icons/deuterium-extraction.png",
         subgroup = "fluid-recipes",
