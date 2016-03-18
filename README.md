@@ -17,7 +17,8 @@ Discussion of #1:
     - Possible solution for this would be to create a new recipe category for
       the fusion recipe, and have the fusion reactor only accept that category.
 - Chemical plants probably can't produce electricity. This might be a game 
-  engine limitation. 
+  engine limitation. The ability to produce electricity _seems_ to be dependent
+  on the entity type, although this should be tested...
 
 Discussion of #2:
 
