@@ -1,16 +1,20 @@
 data:extend(
 {
     {
-        type = "generator",
+        type = "assembling-machine",
         name = "deuterium-fusion-reactor",
         icon = "__Fusion Reactor__/graphics/icons/deuterium-fusion-reactor.png",
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 1, result = "deuterium-fusion-reactor"},
         max_health = 300,
         corpse = "big-remnants",
-        dying_explosion = "large-explosion",
+        dying_explosion = "medium-explosion",
         effectivity = 1,
         fluid_usage_per_tick = 0.1,
+        crafting_categories = {"chemistry"}, 
+        crafting_speed = 1.25,
+        energy_usage = "0W",
+        ingredient_count = 2,
         resistances = 
         {
             {
@@ -20,20 +24,20 @@ data:extend(
         },
         collision_box = {{-1.35, -2.35}, {1.35, 2.35}},
         selection_box = {{-1.5, -2.5}, {1.5, 2.5}},    
-        fluid-box = 
+        fluid_box = 
         {
             base_area = 1,
             pipe_covers = pipecoverspictures(),
             pipe_connections = 
             {
                 { position = {0, 3} },
-                { position = {0, -3} },
-            },
+                { position = {0, -3} }
+            }
         },
         energy_source = 
         {
             type = "electric",
-            usage_priority = "secondary-output",
+            usage_priority = "secondary-output"
         },
         horizontal_animation =
         {
@@ -66,7 +70,7 @@ data:extend(
             match_speed_to_activity = true,
         },                                                                                          
         min_perceived_performance = 0.25,
-        performance_to_sound_speedup = 0.5,
+        performance_to_sound_speedup = 0.5
     }
 })
 
