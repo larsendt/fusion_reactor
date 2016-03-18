@@ -35,6 +35,7 @@ Discussion of #2:
 
 
 Discussion of #3:
+
 - No way to enforce input fluid
 - Only can control temp of output
 - Is dumb
